@@ -1,0 +1,756 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Cropper.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\cropper.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_SELECTION           BITMAP                  "res\\navImages.bmp"
+IDB_SPLASH              BITMAP                  "res\\spl.bmp"
+IDB_ERROR               BITMAP                  "res\\error.bmp"
+IDB_LOGO                BITMAP                  "res\\logo.bmp"
+IDB_FILLER              BITMAP                  "res\\blue.bmp"
+IDB_YELLOW              BITMAP                  "res\\yellow.bmp"
+IDB_RED                 BITMAP                  "res\\red.bmp"
+IDB_BUYNOW              BITMAP                  "res\\paypal.bmp"
+IDB_BLACK               BITMAP                  "res\\black.bmp"
+IDB_DRAGDROP            BITMAP                  "res\\DragDrop.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_OPENPROCESSED
+    SEPARATOR
+    BUTTON      ID_VIEW_NEXT
+    BUTTON      ID_VIEW_PREVIOUS
+    SEPARATOR
+    BUTTON      ID_EDIT_TRUE
+    BUTTON      ID_EDIT_SIZE
+    SEPARATOR
+    BUTTON      ID_FILE_SAVE_AS
+    SEPARATOR
+    BUTTON      ID_EDIT_ROTATERIGHT
+    BUTTON      ID_EDIT_ROTATELEFT
+    BUTTON      ID_EDIT_ROTATEADJUST
+    BUTTON      ID_EDIT_FLIPVERTICAL
+    BUTTON      ID_EDIT_FLIPHORIZONTAL
+    SEPARATOR
+    BUTTON      ID_FILE_RESIZEALL
+    BUTTON      ID_VIEW_PROCESSED
+    SEPARATOR
+    BUTTON      ID_HELP_FINDER
+END
+
+IDB_SELECTION TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_NAV_FOLDERCLOSE
+    BUTTON      ID_NAV_FOLDEROPEN
+    BUTTON      ID_NAV_NOSELECT
+    BUTTON      ID_NAV_SELECTED
+    BUTTON      ID_NAV_PFOLDERCLOSE
+    BUTTON      ID_NAV_PFOLDEROPEN
+    BUTTON      ID_NAV_CHECKBLACK
+    BUTTON      ID_NAV_CHECKRED
+    BUTTON      ID_NAV_NONE
+    BUTTON      ID_NAV_NONESEL
+    BUTTON      ID_NAV_DRAGDROP
+    BUTTON      ID_NAV_ORIGS
+    BUTTON      ID_NAV_PROC
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Select &Originals...\tCtrl+O", ID_FILE_OPEN
+        MENUITEM "&Processing Options...\tCtrl+P", ID_FILE_OPENPROCESSED
+        MENUITEM SEPARATOR
+        MENUITEM "&Crop/Save Picture...\tF8",   ID_FILE_SAVE_AS
+        MENUITEM "&Resize All...\tShift+F8",    ID_FILE_RESIZEALL
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&True Size\tF11",             ID_EDIT_TRUE
+        MENUITEM "&Size to Fit\tShift+F11",     ID_EDIT_SIZE, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Rotate &Left\tCtrl+L",        ID_EDIT_ROTATELEFT
+        MENUITEM "Rotate Ri&ght\tCtrl+R",       ID_EDIT_ROTATERIGHT
+        MENUITEM "&Adjust Rotation...\tCtrl+A", ID_EDIT_ROTATEADJUST
+        MENUITEM SEPARATOR
+        MENUITEM "Flip &Hoizontal",             ID_EDIT_FLIPHORIZONTAL
+        MENUITEM "Flip &Vertical",              ID_EDIT_FLIPVERTICAL
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Next Picture\tF4",           ID_VIEW_NEXT
+        MENUITEM "Pre&vious Picture\tF3",       ID_VIEW_PREVIOUS
+        MENUITEM SEPARATOR
+        MENUITEM "View &Originals",             ID_VIEW_ORIGINALS
+        MENUITEM "View &Processed",             ID_VIEW_PROCESSED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics\tF1",            ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Fit to List...",       57664
+    END
+END
+
+IDR_SELTREE_MENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Select Originals...",         ID_POPUP_OPEN
+        MENUITEM "Refresh List\tF5",            ID_POPUP_REFRESH
+        MENUITEM "Processing Options...",       ID_POPUP_PROCESSED
+    END
+END
+
+IDR_PICTURE_MENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Restore",                     ID_RESTORE_PICTURE
+        MENUITEM "Crop/Save Picture...",        ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Next Picture",                ID_POPUP_NEXT
+        MENUITEM "Previous Picture",            ID_POPUP_PREVIOUS
+        MENUITEM SEPARATOR
+        MENUITEM "Rotate Left",                 32773
+        MENUITEM "Rotate Right",                32774
+    END
+END
+
+IDR_VIEW_POPUP MENU 
+BEGIN
+    POPUP "View"
+    BEGIN
+        MENUITEM "View Processed",              ID_VIEW_PROCESSED
+        MENUITEM "View Originals",              32779
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "A",            ID_EDIT_ROTATEADJUST,   VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_EDIT_ROTATELEFT,     VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_EDIT_ROTATERIGHT,    VIRTKEY, CONTROL, NOINVERT
+    VK_F11,         ID_EDIT_SIZE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F11,         ID_EDIT_TRUE,           VIRTKEY, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_OPENPROCESSED,  VIRTKEY, CONTROL, NOINVERT
+    VK_F8,          ID_FILE_RESIZEALL,      VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_FILE_SAVE_AS,        VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP_FINDER,         VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP_FINDER,         VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F5,          ID_POPUP_REFRESH,       VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_VIEW_NEXT,           VIRTKEY, NOINVERT
+    VK_F3,          ID_VIEW_PREVIOUS,       VIRTKEY, NOINVERT
+    VK_F2,          ID_FILE_NEW,            VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 261, 156
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Fit to List"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,88,20,20
+    LTEXT           "Copyright (C) 2008  Rick Eichhorn.  All rights reserved.",IDC_STATIC,42,88,206,8
+    DEFPUSHBUTTON   "OK",IDOK,204,133,50,16,WS_GROUP
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN | WS_BORDER,7,7,107,66
+    LTEXT           "This software uses the FreeImage open source image library. See http://freeimage.sourceforge.net for details. FreeImage is used under the FIPL, version 1.0.",IDC_STATIC,122,16,132,49
+    LTEXT           "Send questions or comments to support@rajeware.com",IDC_STATIC,42,107,206,8
+    LTEXT           "Upgrade to the latest version at:",IDC_STATIC,42,116,206,8,SS_CENTERIMAGE
+    LTEXT           "http://www.rajeware.com",IDC_URL,42,130,154,16,SS_NOTIFY
+    LTEXT           "Fit to List Version 1.0",IDC_VERSION,42,79,206,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,122,70,132,3
+    LTEXT           "",IDC_LICENSE,42,97,176,9
+END
+
+IDR_MAINFRAME DIALOGEX 0, 0, 404, 28
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    RTEXT           "###",IDC_ORIGINAL_CNT,245,2,22,12
+    RTEXT           "###",IDC_TARGET_CNT,245,15,22,12
+    CONTROL         "Static",IDC_IMAGE_NAME,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,8,3,226,12
+    CONTROL         "Static",IDC_IMAGE_INFO,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,8,15,226,12
+    CONTROL         "Static",IDC_ORIGINAL_PATH,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,270,2,130,12
+    CONTROL         "Static",IDC_TARGET_PATH,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,270,15,130,12
+END
+
+IDD_SAVE DIALOGEX 0, 0, 182, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Picture"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NAME,44,21,121,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CBO_FOLDER,44,36,94,32,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Go to next picture",IDC_CHK_NEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,52,95,8
+    CONTROL         "Picture is for Web or eMail",IDC_CHK_REDUCE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,8,123,11
+    DEFPUSHBUTTON   "OK",IDOK,75,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,65,50,14
+    LTEXT           "Name:",IDC_STATIC,7,23,28,12
+    LTEXT           "Save In:",IDC_STATIC,7,39,33,10
+END
+
+IDD_BULKSAVE DIALOGEX 0, 0, 219, 151
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Process All Images"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Set Size",IDC_SETSIZE,170,63,41,14
+    COMBOBOX        IDC_CBO_FOLDER,51,85,161,49,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_BROWSE,169,101,41,14
+    CONTROL         "Ask before overwriting processed images",IDC_CHK_OVERWRITE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,115,205,8
+    DEFPUSHBUTTON   "OK",IDOK,107,130,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,162,130,50,14
+    LTEXT           "Number of Images:",IDC_STATIC,7,53,68,13
+    EDITTEXT        IDC_COUNT,72,53,26,13,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Resize all the pictures in the Originals folder so they are suitable for use with email or the web. Aspect ratio will be preserved. The originals will not be changed. The resized copies will be stored in the folder you select.",IDC_STATIC,7,7,205,44
+    LTEXT           "Max Size:",IDC_STATIC,7,64,36,11
+    EDITTEXT        IDC_MAX_SIZE,51,64,99,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Save In:",IDC_STATIC,7,87,32,9
+END
+
+IDD_RESIZE DIALOGEX 0, 0, 142, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Size for Web"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,31,84,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,84,50,14
+    EDITTEXT        IDC_MAX_WIDTH,51,32,36,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_WIDTH,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,85,35,11,9
+    EDITTEXT        IDC_MAX_HEIGHT,51,47,36,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_HEIGHT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,85,48,11,12
+    COMBOBOX        IDC_CBO_UNITS,51,62,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Max Height:",IDC_STATIC,7,49,42,10
+    LTEXT           "Max Width:",IDC_STATIC,7,33,39,12
+    LTEXT           "Units:",IDC_STATIC,7,64,36,8
+    LTEXT           "Resized pictures should be no larger than:",IDC_STATIC,7,7,128,22
+END
+
+IDD_SETSPECS DIALOGEX 0, 0, 226, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Processing Details"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_CBO_FOLDER,10,18,205,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_BROWSE,167,34,50,14
+    PUSHBUTTON      "Change",IDC_SETSIZE,164,93,50,14
+    DEFPUSHBUTTON   "OK",IDOK,115,116,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,169,116,50,14
+    GROUPBOX        "Location for Processed Photos",IDC_STATIC,7,7,212,45
+    GROUPBOX        "Image Resizing",IDC_STATIC,7,52,212,60
+    LTEXT           "Images for use with email or the web will be resized to no larger than 400 by 600 or 600 by 400 pixels depending on orientation.",IDC_SIZING,14,62,144,39
+    LTEXT           "Static",IDC_MAX_HEIGHT,171,70,46,8
+    LTEXT           "Static",IDC_MAX_WIDTH,171,60,46,8
+    LTEXT           "Static",IDC_UNITS,171,80,46,8
+END
+
+IDD_ROTATE DIALOGEX 0, 0, 186, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rotate Picture"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,77,77,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,77,50,14
+    CONTROL         "",IDC_ANGLE,"msctls_trackbar32",TBS_AUTOTICKS | TBS_VERT | TBS_TOP | WS_TABSTOP,147,16,25,57
+    CONTROL         "",IDC_LEVEL,"Static",SS_BLACKFRAME,15,46,102,1
+    CONTROL         "",IDC_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,15,24,104,44
+    LTEXT           "Use the slider on the right to orient the top edge of the picture.",IDC_STATIC,7,7,125,17
+END
+
+IDD_REMINDER DIALOGEX 0, 0, 261, 246
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Purchase Reminder"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         158,IDC_BACK,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,4,87,253,155,WS_EX_CLIENTEDGE
+    CONTROL         156,IDC_FILLER,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,4,4,253,79,WS_EX_CLIENTEDGE
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,16,9,104,63
+    CTEXT           "$14.95",IDC_PRICE,125,17,99,48,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "USD",IDC_NATION,225,37,24,11
+    EDITTEXT        IDC_MESSAGE,11,112,239,75,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Alternate Purchase Method",IDC_LINK,56,225,148,12,SS_NOTIFY
+    RTEXT           "Questions/Comments",IDC_MAILTO,144,95,106,11,SS_NOTIFY
+    LTEXT           "Copyright (C) 2004 RAJE Software        www.rajeware.com",IDC_COPYRIGHT,20,69,227,10
+    PUSHBUTTON      "Continue Trial",IDCANCEL,156,190,95,26
+    PUSHBUTTON      "PayPal",IDC_PURCHASE,56,190,95,26,BS_BITMAP
+    PUSHBUTTON      "Enter Key",IDC_SHOWKEY,12,93,62,14
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 199, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Your License Key"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_REGNAME,54,8,138,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGCOMPANY,54,26,138,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGKEY,54,44,138,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,87,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,142,65,50,14
+    LTEXT           "Name:",IDC_STATIC,7,8,46,13
+    LTEXT           "Company:",IDC_STATIC,7,26,46,13
+    LTEXT           "License Key:",IDC_STATIC,7,44,46,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "Bulk Photo Processing Quick And Easy"
+            VALUE "CompanyName", "RAJE Software"
+            VALUE "FileDescription", "Crop and resize JPG images from your digital camera."
+            VALUE "FileVersion", "2.0.0.0"
+            VALUE "InternalName", "Cropper.exe"
+            VALUE "LegalCopyright", "Copyright (c) 2005 RAJE Software (Rick Eichhorn).  All rights reserved."
+            VALUE "OriginalFilename", "Cropper.exe"
+            VALUE "ProductName", "Fit To List"
+            VALUE "ProductVersion", "2.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDR_MAINFRAME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 403
+    END
+
+    IDD_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_BULKSAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_RESIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_SETSPECS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_ROTATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_REMINDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 257
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SAVE DLGINIT
+BEGIN
+    IDC_CBO_FOLDER, 0x403, 17, 0
+0x724f, 0x6769, 0x6e69, 0x6c61, 0x2073, 0x6f46, 0x646c, 0x7265, "\000" 
+    IDC_CBO_FOLDER, 0x403, 17, 0
+0x7250, 0x636f, 0x7365, 0x6573, 0x2064, 0x6f46, 0x646c, 0x7265, "\000" 
+    0
+END
+
+IDD_RESIZE DLGINIT
+BEGIN
+    IDC_CBO_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_CBO_UNITS, 0x403, 12, 0
+0x6563, 0x746e, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    IDC_CBO_UNITS, 0x403, 7, 0
+0x6970, 0x6578, 0x736c, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_LINK                CURSOR                  "res\\link.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Fit to List Image Reduction\n\nImage\nPicture Files (*.jpg)\n.jpg\nPicture.Document\nPicture.Document"
+    IDS_SIZING              "Images for use with email or the web will be resized to no larger than $WIDTH$ by $HEIGHT$ or $HEIGHT$ by $WIDTH$ $UNITS$ depending on orientation."
+    IDS_NOPICTURES          "There are no pictures in that folder. Please choose another. Picture files must have extension jpg."
+    IDS_SAMEFOLDER          "You cannot set the Processed Folder to the same location as the Originals Folder. Please choose another location."
+    IDS_SAVE_ERROR          "Sorry - Cannot save the image.  Try changing the location of your Processed Folder and try again.  To change the location of your Processed Folder, clck 'Processing Options' on the toolbar."
+    IDS_READONLY            "File exists and cannot be overwritten. Try saving it to a different folder."
+    IDS_OVERWRITE           "File exists. Do you want to replace it?"
+    IDS_VERSION             "Fit to List Version 2.1"
+    IDS_WEBSITE_URL         "http://www.rajeware.com"
+    IDS_DRAGDROP            "Drag and drop a single file, or drop a single folder containing the pictures you want to process.  If you drop a single file, all pictures in that file's folder will be used."
+    IDS_REMIND_START        "This is a trial version available to use for %d days. Currently you have %d days remaining before the program ends. To purchase a permanent license for this program, please click on the 'PayPal' button below."
+    IDS_REMIND_END          "Thank you for trying Fit To List. Currently you have %d days remaining before the program ends. To purchase a license for this program, please click on the 'PayPal' button below."
+    IDS_REMIND_OVER         "Your %d day trial period for Fit To List has ended. Purchase a license today to continue using the program. Click the 'PayPal' button to access our order form."
+    IDS_PURCHASE_URL        "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sales@rajeware.com&undefined_quantity=1&item_name=Fit+To+List&amount=14.95&return=http%3A%2F%2Fwww.rajeware.com&cancel_return=http%3A%2F%2Fwww.rajeware.com"
+    IDS_MAILTO              "mailto:support@rajeware.com?subject=FitToList (2.1TM)"
+    IDS_KEY_ERROR           "Check your entries again. You must enter all three fields exactly as they appear in your purchase letter."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Fit to List Image Processing"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_POS        "POS"
+    ID_INDICATOR_CROP       "CROP"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Select the folder where your Originals are located\nSelect Originals"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save processed picture\nSave"
+    ID_FILE_SAVE_AS         "Save the cropped area or the entire picture\nCrop/Save Picture"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; Exit Fit to List\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Use this folder for your Originals"
+    ID_FILE_MRU_FILE2       "Use this folder for your Originals"
+    ID_FILE_MRU_FILE3       "Use this folder for your Originals"
+    ID_FILE_MRU_FILE4       "Use this folder for your Originals"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Set the picture size\nSet Size"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Display true size\nTrue Size"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_TRUE            "Display picture true size\nTrue Size"
+    ID_EDIT_SIZE            "Display the picture sized to fit\nSize to Fit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPENPROCESSED   "Set picture processing options\nProcessing Options"
+    ID_EDIT_ROTATELEFT      "Rotate picture counter-clockwise 90 degrees\nRotate Left"
+    ID_EDIT_ROTATERIGHT     "Rotate picture clockwise 90 degrees\nRotate Right"
+    ID_EDIT_FLIPVERTICAL    "Flip picture vertically\nFlip Vertical"
+    ID_VIEW_NEXT            "View the next picture in the current folder\nNext Picture"
+    ID_VIEW_PREVIOUS        "View the previous picture in the current folder\nPrevious Picture"
+    ID_VIEW_ORIGINALS       "View pictures in the Originals folder"
+    ID_VIEW_PROCESSED       "View pictures in the Processed folder\nView Processed"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_RESIZEALL       "Resize all the pictures in the Originals folder\nResize All"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_ROTATEADJUST    "Slightly rotate the picture to level it\nAdjust Rotation"
+    ID_EDIT_FLIPHORIZONTAL  "Flip picture horizontally - mirror image\nFlip Horizontal"
+    ID_RESTORE_PICTURE      "Restore the picture to its original state"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIGHTS_ERROR        "Your login account does not have sufficient rights to enter a license key. Please log on using an Administrator account."
+    IDS_WRITE_ERROR         "Cannot create license. Try installing the program again. Contact support@rajeware.com"
+    IDS_ALTPURCHASE_URL     "https://secure.reg.net/Product.asp?ID=14233&TemplateID=-1"
+    IDS_EBAY_OVER           "You must enter your license key to continue using Fit To List.  If you have lost your key, email support@rajeware.com.  Include the name you used to purchase. "
+    IDS_TREE_PHOTOS         "Photos To Size (%d)"
+    IDS_TREE_ORIGS          "Find Originals (%d)"
+    IDS_TREE_PROCS          "Find Processed (%d)"
+    IDS_MAX_SIZE            "$WIDTH$ by $HEIGHT$ $UNITS$"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Cropper.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

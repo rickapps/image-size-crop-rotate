@@ -1,0 +1,30 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=FitToList.chm
+Contents file=TOC.hhc
+Default topic=Overview.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Fit To List
+
+
+[FILES]
+toolbar.htm
+Products.htm
+Overview.htm
+Support.htm
+HowTo.htm
+
+[ALIAS]
+HIDR_MAINFRAME = Overview.htm
+
+[MAP]
+#include HTMLDefines.h
+
+[TEXT POPUPS]
+HTMLDefines.h
+
+[INFOTYPES]
+

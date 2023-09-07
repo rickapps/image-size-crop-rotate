@@ -1,0 +1,91 @@
+
+[Project]
+CertificateCount=2
+CustomHardwareLock1=0xF0
+HardwareRelax1=4
+IniStyle=ArmadilloV3
+Name=FitToList_RAJESoftware
+SwPVersion=1.0.415
+TargetFile=\\Raven\DEVEL (E)\Workspaces\Cropper\Release\Cropper.exe
+
+[Project#Certificate0]
+CountSeparate=0
+HardwareLock=0
+Key=DEFAULT
+KeyTypes=0x22
+Name=FitToList_TrialLicense
+ShowRegButton=1
+
+[Project#Certificate0#DropDead]
+Message0=The key you entered is no longer valid. The program's author has placed a time-limit on this type of key, which has been exceeded. Please contact the program's author about a new key.
+
+[Project#Certificate0#ExpireType]
+Enable=1
+ExpireType=DAYS
+HTMLMessage0=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"%n"http://www.w3.org/TR/html4/loose.dtd"> %n<html><head><title>Window</title><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> %n<style type="text/css"> %n<!-- %n.prodName { %n   font-family: Verdana, Arial, Helvetica, sans-serif; %n   font-size: 29px; %n   color: #666666; %n   font-weight: bold; } %n.prodPrice { %n   font-family: Verdana, Arial, Helvetica, sans-serif; %n    font-size: 18px; %n   color: #CC0000; %n   font-weight: bold; } %n.grayNote { %n   font-family: Arial, Helvetica, sans-serif; %n   font-size: 10px; %n   color: #999999; } %n.blueHeader { %n   font-family: Verdana, Arial, Helvetica, sans-serif; %n   font-size: 22px; %n   font-weight: bold; %n   color: #4367A3; } %n.greySub { %n   font-family: Verdana, Arial, Helvetica, sans-serif; %n   font-size: 15px; %n   font-weight: bold; %n   color: #666666; } %n.orangeText { %n   font-family: Verdana, Arial, Helvetica, sans-serif; %n   font-size: 12px; %n   color: #FF6600; %n   font-weight: bold; } %n .borderBottom { %n   border-bottom-color: #7F7F7F; %n    border-bottom-width: 1px; %n    border-bottom-style: solid; } %n --> %n </style></head><body> %n<table width="657"  border="0" cellspacing="0" cellpadding="0">  %n  <tr><td colspan="4" align="center" style="padding-bottom:12px;"><span class="prodName">Fit to List Image Reduction</span></td></tr> %n   <tr><td rowspan="5" valign="top" style="padding-right:10px;"><img src="file:///%%PROTECTEDFILEPATH%%images/logo.jpg" width="143"%n       height="196" alt=""></td> %n    <td colspan="3" style="padding-bottom:12px;"><span class="greySub"> %n     We're sorry. The trial period has expired for this program. By purchasing a license today you may continue to use the program. Click on the 'Buy Full Version' button to be taken to our order form.%n  </span></td></tr> %n  <tr><td>&nbsp;</td> %n    <td colspan="2" align="center" style="padding-bottom:12px;"><span class="greySub"></span></td></tr> %n   <tr><td><span class="prodPrice">$14.95</span></td> %n    <td align="center"><a href="close:website"> %n     <img src="file:///%%PROTECTEDFILEPATH%%images/buy.gif" alt="" width="165" height="43" border="0"></a></td></tr> %n  <tr><td valign="bottom">&nbsp;</td> %n   <td colspan="2" align="center"><a href="close:enterkey"><span class="grayNote">%n     If you have completed a purchase and need to enter your key, click here.</span> </a></td></tr>%n   <tr><td><img src="file:///%%PROTECTEDFILEPATH%%images/money_back_g.gif"%n       width="101" height="85" alt=""></td>  %n    <td colspan="2" align="center"> %n     <img src="file:///%%PROTECTEDFILEPATH%%images/security_lock_text.gif" width="332" height="85" alt=""></td></tr> %n  <tr><td colspan="4" class="borderBottom">&nbsp;</td></tr>  %n  <tr><td colspan="2"><img src="file:///%%PROTECTEDFILEPATH%%images/powered_by_dr.gif" %n       width="209" height="40" alt=""></td> %n     <td colspan="2"><div align="right"><a href="close:customerservice" class="orangeText"> %n       Customer Service</a></div></td></tr> %n  </table> </body></html>%n%n
+MessageType=HTML
+Number=10
+Revert=0
+UseHTML=1
+
+[Project#Certificate0#Nag]
+Enable=1
+HTMLMessage0=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN%n"http://www.w3.org/TR/html4/loose.dtd">%n<html><head><title>Window</title><meta http-equiv="Content-Type"%n content="text/html; charset=iso-8859-1%n"><style type="text/css"><!-- %n.prodName { font-family: Verdana, Arial, Helvetica, sans-serif; %n          font-size: 29px; %n          color: #666666; %n          font-weight: bold; } %n.prodPrice { font-family: Verdana, Arial, Helvetica, sans-serif; %n         font-size: 18px; %n           color: #CC0000; %n         font-weight: bold; } %n.grayNote { font-family: Arial, Helvetica, sans-serif; %n          font-size: 10px; %n          color: #999999; } %n.blueHeader { font-family: Verdana, Arial, Helvetica, sans-serif; %n            font-size: 22px; %n            font-weight: bold; %n            color: #4367A3; } %n.greySub { font-family: Verdana, Arial, Helvetica, sans-serif; %n         font-size: 15px; %n         font-weight: bold; %n         color: #666666; } %n.orangeText { font-family: Verdana, Arial, Helvetica, sans-serif; %n            font-size: 12px; %n            color: #FF6600; %n            font-weight: bold; } %n.borderBottom { border-bottom-color: #7F7F7F; %n              border-bottom-width: 1px; %n              border-bottom-style: solid; } %n--> %n</style></head><body><table width="657" border="0"%n cellspacing="0" cellpadding="0"> %n  <tr><td colspan="4" align="center"%n style="padding-bottom:12px;">%n<span class="prodName">Fit to List Image Reduction</span></td></tr> %n  <tr><td rowspan="5" valign="top" style="padding-right:10px;">%n<img src="file:///%%PROTECTEDFILEPATH%%images/Logo.jpg"%n width="143" height="196" alt=""></td> %n  <td colspan="3" style="padding-bottom:12px; %n"><span class="greySub">This is a trial version available to use for 10 days. Currently you have %%DAYSLEFT%% days remaining before the program ends. To purchase a license for this program, please click on the 'Buy Full Version' button below.</span></td></tr> %n<tr><td>&nbsp;</td> %n  <td colspan="2" align="center" style=" %n padding-bottom:12px;" ><span class="greySub"></span></td></tr> %n  <tr><td><span class="prodPrice">$14.95</span></td> %n  <td align="center"><a href="close:website">%n<img src="file:///%%PROTECTEDFILEPATH%%images/buy.gif"%n alt="" width="165" height="43" border="0"></a></td> %n  <td align="center"><a href="close:ok">%n<img src="file:///%%PROTECTEDFILEPATH%%images/continue_free_trial.gif"%n alt="" width="167" height="43" border="0"></a></td></tr> %n  <tr><td valign="bottom">&nbsp;</td> %n  <td colspan="2" align="center">%n<a href="close:enterkey">%n<span class="grayNote">If you have completed a purchase and need to enter your key, click here.</span> </a></td></tr> %n  <tr><td><img src="file:///%%PROTECTEDFILEPATH%%images/money_back_g.gif"%n width="101" height="85" alt=""></td> %n  <td colspan="2" align="center">%n<img src="file:///%%PROTECTEDFILEPATH%%images/security_lock_text.gif"%n width="332" height="85" alt=""></td></tr> %n  <tr><td colspan="4" class="borderBottom">&nbsp;</td></tr> %n  <tr><td colspan="2">%n<img src="file:///%%PROTECTEDFILEPATH%%images/powered_by_dr.gif"%n width="209" height="40" alt=""></td> %n  <td colspan="2"><div align="right">%n<a href="close:customerservice" class="orangeText">Customer Service</a></div></td></tr> %n</table></body></html>
+Message0=This program is not free. It is an evaluation version of copyrighted software. If you use it beyond the evaluation period, you are expected to register it with the author. Please check the program's documentation for details.
+MessageType=HTML
+ShowAfter=1
+UseHTML=1
+
+[Project#Certificate0#NagAfter]
+Enable=1
+HTMLMessage0=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN%n"http://www.w3.org/TR/html4/loose.dtd">%n<html><head><title>Window</title><meta http-equiv="Content-Type"%n content="text/html; charset=iso-8859-1%n"><style type="text/css"><!-- %n.prodName { font-family: Verdana, Arial, Helvetica, sans-serif; %n          font-size: 29px; %n          color: #666666; %n          font-weight: bold; } %n.prodPrice { font-family: Verdana, Arial, Helvetica, sans-serif; %n         font-size: 18px; %n           color: #CC0000; %n         font-weight: bold; } %n.grayNote { font-family: Arial, Helvetica, sans-serif; %n          font-size: 10px; %n          color: #999999; } %n.blueHeader { font-family: Verdana, Arial, Helvetica, sans-serif; %n            font-size: 22px; %n            font-weight: bold; %n            color: #4367A3; } %n.greySub { font-family: Verdana, Arial, Helvetica, sans-serif; %n         font-size: 15px; %n         font-weight: bold; %n         color: #666666; } %n.orangeText { font-family: Verdana, Arial, Helvetica, sans-serif; %n            font-size: 12px; %n            color: #FF6600; %n            font-weight: bold; } %n.borderBottom { border-bottom-color: #7F7F7F; %n              border-bottom-width: 1px; %n              border-bottom-style: solid; } %n--> %n</style></head><body><table width="657" border="0"%n cellspacing="0" cellpadding="0"> %n  <tr><td colspan="4" align="center"%n style="padding-bottom:12px;">%n<span class="prodName">Fit to List</span></td></tr> %n  <tr><td rowspan="5" valign="top" style="padding-right:10px;">%n<img src="file:///%%PROTECTEDFILEPATH%%images/logo.jpg"%n width="143" height="196" alt=""></td> %n  <td colspan="3" style="padding-bottom:12px; %n"><span class="greySub">Thank you for trying our product. Currently you have %%DAYSLEFT%% days remaining before your free trial ends. To purchase a license for this program, please click on the 'Buy Full Version' button below.</span></td></tr> %n<tr><td>&nbsp;</td> %n  <td colspan="2" align="center" style=" %n padding-bottom:12px;" ><span class="greySub"></span></td></tr> %n  <tr><td><span class="prodPrice">$14.95</span></td> %n  <td align="center"><a href="close:website">%n<img src="file:///%%PROTECTEDFILEPATH%%images/buy.gif"%n alt="" width="165" height="43" border="0"></a></td> %n  <td align="center"><a href="close:ok">%n<img src="file:///%%PROTECTEDFILEPATH%%images/exit.gif"%n alt="" width="167" height="43" border="0"></a></td></tr> %n  <tr><td valign="bottom">&nbsp;</td> %n  <td colspan="2" align="center">%n<a href="close:enterkey">%n<span class="grayNote">If you have completed a purchase and need to enter your key, click here.</span> </a></td></tr> %n  <tr><td><img src="file:///%%PROTECTEDFILEPATH%%images/money_back_g.gif"%n width="101" height="85" alt=""></td> %n  <td colspan="2" align="center">%n<img src="file:///%%PROTECTEDFILEPATH%%images/security_lock_text.gif"%n width="332" height="85" alt=""></td></tr> %n  <tr><td colspan="4" class="borderBottom">&nbsp;</td></tr> %n  <tr><td colspan="2">%n<img src="file:///%%PROTECTEDFILEPATH%%images/powered_by_dr.gif"%n width="209" height="40" alt=""></td> %n  <td colspan="2"><div align="right">%n<a href="close:customerservice" class="orangeText">Customer Service</a></div></td></tr> %n</table></body></html>%n%n%n%n%n%n%n%n
+Message0=This program is not free. It is an evaluation version of copyrighted software. If you use it beyond the evaluation period, you are expected to register it with the author. Please check the program's documentation for details.
+MessageType=HTML
+ShowAfter=1
+UseHTML=1
+
+[Project#Certificate0#UpgradeList]
+UpgradeCount=0
+
+[Project#Certificate1]
+CountSeparate=0
+DigitalRiver=1
+HardwareLock=1
+Key=ABCDEF1234567
+KeyTypes=0x44
+Name=FitToList_LicenseCertificate
+SignatureLevel=10
+
+[Project#Certificate1#DropDead]
+Message0=The key you entered is no longer valid. The program's author has placed a time-limit on this type of key, which has been exceeded. Please contact the program's author about a new key.
+
+[Project#Certificate1#ExpireType]
+NoShowMessage=1
+Number=0
+Revert=0
+
+[Project#Certificate1#Nag]
+Message0=This program is not free. It is an evaluation version of copyrighted software. If you use it beyond the evaluation period, you are expected to register it with the author. Please check the program's documentation for details.
+ShowBefore=0
+
+[Project#Certificate1#NagAfter]
+Message0=This program is not free. It is an evaluation version of copyrighted software. If you use it beyond the evaluation period, you are expected to register it with the author. Please check the program's documentation for details.
+ShowAfter=0
+[Project#Certificate1#UpgradeList]
+UpgradeCount=0
+[Project#InterceptedLibs]
+Lib0=+MSJAVA.DLL
+Lib1=+MSVBVM50.DLL
+Lib2=+MSVBVM60.DLL
+Lib3=+MSVCRT.DLL
+Lib4=+OLE32.DLL
+Lib5=+PBVM70.DLL
+Lib6=+PROJ.DLL
+Lib7=+VDFVM8.DLL
+Lib8=+VFP5R.DLL
+Lib9=+VFP6R.DLL
+Lib10=+VFP7R.DLL
+Lib11=+VFP8R.DLL
+Lib12=-*
+LibCount=13
+[Project#StolenCodes]

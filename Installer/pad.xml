@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>1.15</MASTER_PAD_VERSION>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+<Company_Info>
+        <Company_Name>RAJE Software</Company_Name>
+        <Address_1>6852 S. Webster Way</Address_1>
+        <Address_2 />
+        <City_Town>Littleton</City_Town>
+        <State_Province>CO</State_Province>
+        <Zip_Postal_Code>80128</Zip_Postal_Code>
+        <Country>USA</Country>
+        <Company_WebSite_URL>http://www.rajeware.com</Company_WebSite_URL>
+<Contact_Info>
+        <Author_First_Name>Rick</Author_First_Name>
+        <Author_Last_Name>Eichhorn</Author_Last_Name>
+        <Author_Email>support@rajeware.com</Author_Email>
+        <Contact_First_Name>Rick</Contact_First_Name>
+        <Contact_Last_Name>Eichhorn</Contact_Last_Name>
+        <Contact_Email>support@rajeware.com</Contact_Email>
+    </Contact_Info>
+<Support_Info>
+        <Sales_Email>sales@rajeware.com</Sales_Email>
+        <Support_Email>support@rajeware.com</Support_Email>
+        <General_Email>support@rajeware.com</General_Email>
+        <Sales_Phone>(800) 999-2734</Sales_Phone>
+        <Support_Phone />
+        <General_Phone />
+        <Fax_Phone />
+    </Support_Info>
+</Company_Info>
+<Program_Info>
+        <Program_Name>Fit to List</Program_Name>
+        <Program_Version>2.0</Program_Version>
+        <Program_Release_Month>11</Program_Release_Month>
+        <Program_Release_Day>26</Program_Release_Day>
+        <Program_Release_Year>2005</Program_Release_Year>
+        <Program_Cost_Dollars>14.95</Program_Cost_Dollars>
+        <Program_Cost_Other_Code />
+        <Program_Cost_Other />
+        <Program_Type>Shareware</Program_Type>
+        <Program_Release_Status>Major Update</Program_Release_Status>
+        <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+        <Program_OS_Support>Win98,WinME,WinNT 4.x,WinXP,Windows2000</Program_OS_Support>
+        <Program_Language>English</Program_Language>
+<File_Info>
+        <Filename_Versioned>FitList20.exe</Filename_Versioned>
+        <Filename_Previous>FitList15.exe</Filename_Previous>
+        <Filename_Generic>FitList.exe</Filename_Generic>
+        <Filename_Long />
+        <File_Size_Bytes>700536</File_Size_Bytes>
+        <File_Size_K>684</File_Size_K>
+        <File_Size_MB>0.68</File_Size_MB>
+    </File_Info>
+<Expire_Info>
+        <Has_Expire_Info>Y</Has_Expire_Info>
+        <Expire_Count>10</Expire_Count>
+        <Expire_Based_On>Days</Expire_Based_On>
+        <Expire_Other_Info />
+        <Expire_Month />
+        <Expire_Day />
+        <Expire_Year />
+    </Expire_Info>
+        <Program_Change_Info>Improved Speed</Program_Change_Info>
+        <Program_Specific_Category>Graphics</Program_Specific_Category>
+        <Program_Categories>Editors, Utilities, Camera, DIgital Photos, Auction Tools</Program_Categories>
+        <Program_System_Requirements>Internet Explorer 5.0 or higher</Program_System_Requirements>
+        <Includes_JAVA_VM>N</Includes_JAVA_VM>
+        <Includes_VB_Runtime>N</Includes_VB_Runtime>
+        <Includes_DirectX>N</Includes_DirectX>
+</Program_Info>
+<Program_Descriptions>
+<English>
+        <Keywords>photo editor, eBay, auction tools, listing tools, jpg, jpegs, digital camera, listing tools, online auction, cropping, cropper, image reduction, reduce size</Keywords>
+        <Char_Desc_45>Prepare your photos (jpg) for listing on eBay</Char_Desc_45>
+        <Char_Desc_80>Prepare your jpg photos for eBay or other online aucitons. Reduce, Crop, more</Char_Desc_80>
+        <Char_Desc_250>Fit to List prepares your jpg photos for listing on eBay and other auction sites. The photo editor is easy to learn - it contains only the features you use. Resize an entire folder of photos unattended. Crop, rotate, resize, batch resize, and more.</Char_Desc_250>
+        <Char_Desc_450>Fit to List dramatically simplifies the process of preparing jpg photos for eBay or other online uses.  Crop, resize, and move to the next image with just one click. Batch resizing allows you to reduce an entire folder of images while you work elsewhere. Even if you sometimes turn the camera and take some pictures vertical and others horizontal, Fit To List reduces them correctly with no intervention on your part. No more squashed images!</Char_Desc_450>
+        <Char_Desc_2000>Fit to List dramatically simplifies the process of preparing your jpg photos for listing on eBay or other online uses.  Crop, resize, and move to the next image with just one click. Batch resizing allows you to reduce an entire folder of images while you work elsewhere. Even if you sometimes turn the camera and take some pictures vertical and others horizontal, Fit To List reduces them correctly with no intervention on your part. No more squashed images! 
+
+Save time with your scanner. Scan several items at once, then quickly separate those items in the scanned image with Fit to List.  The cropping rectangle retains its size for each image. Just move it to position and double click. Fit to List lets you rotate images to make them level just in case they were not lined up on the scanner properly. Fit to List was designed specifically to help you get your images cropped and reduced in minimal time. If you have a digital camera or scanner, you need Fit To List.
+
+Features
+* Dont worry about mistakes. Your original images are preserved 
+* Drag and drop interface. Drag a folder or picture to the program for processing. 
+* Crop, resize, and move to the next picture with one click 
+* No guessing on proper picture size. Fit to List tells you the time to download each picture. 
+* Use units that make the most sense to you; pixels, inches, or centimeters. 
+* Quickly reduce, crop, and rotate all the images from your digital camera and scanner. 
+* Rotate Pictures 
+* Flip Picture Vertically 
+* Mirror Image 
+* Resize an entire folder of pictures unattended 
+* Resize pictures only if they are larger than a specified size 
+* No more squashed images. The program automatically determines the picture orientation 
+* Fine tune rotation to make your images level 
+* Display true size or sized to fit viewing area 
+* Remembers your settings from one usage to the next</Char_Desc_2000>
+</English>
+<German>
+        <Keywords />
+        <Char_Desc_45 />
+        <Char_Desc_80 />
+        <Char_Desc_250 />
+        <Char_Desc_450 />
+        <Char_Desc_2000 />
+</German>
+</Program_Descriptions>
+<Web_Info>
+<Application_URLs>
+        <Application_Info_URL>http://www.rajeware.com/fittolist/index.html</Application_Info_URL>
+        <Application_Order_URL>https://secure.reg.net/Product.asp?ID=14233&amp;TemplateID=-1</Application_Order_URL>
+        <Application_Screenshot_URL>http://www.rajeware.com/fittolist/images/screen.jpg</Application_Screenshot_URL>
+        <Application_Icon_URL>http://www.rajeware.com/fittolist/icon.gif</Application_Icon_URL>
+        <Application_XML_File_URL>http://www.rajeware.com/fittolist/pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+<Download_URLs>
+        <Primary_Download_URL>ftp://ftp.rajeware.com/fitlist.exe</Primary_Download_URL>
+        <Secondary_Download_URL />
+        <Additional_Download_URL_1 />
+        <Additional_Download_URL_2 />
+    </Download_URLs>
+</Web_Info>
+<Permissions>
+        <Distribution_Permissions>Note to Vendors, Distributors, and SysOps ----------------------------------------
+Fit To List Shareware Version 
+You are encouraged to distribute this shareware package. Please e-mail us at support@rajeware.com
+ to obtain the latest version. You must honor the following restrictions when distributing the software:
+ 1. Vendors or distributors must inform the users that this is a shareware program and that separate
+ registration to the author is required if they use the program after the evaluation period.
+ 2. The files and programs cannot be modified in any way, and must always be distributed together.
+ 3. The program cannot be sold as part of some other more inclusive package except CD-ROM distribution.</Distribution_Permissions>
+        <EULA>LIMITED WARRANTY
+ 
+THE PROGRAM IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  IN NO EVENT WILL THE AUTHOR or AUTHORS BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THE PROGRAM, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE AGREEMENT, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS AS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US, SUPERSEDING ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS LICENSE.
+ 
+Fit to List is a shareware program and is provided at no charge to the user for evaluation.  The purpose of shareware software is to provide users with quality software on a &quot;try before you buy&quot; basis, however payment is still required for continued use of the product.
+
+If you find this program useful and continue to use it after the trial period, you must make a registration payment.  This registration fee will license one user to use one copy of Fit to List on any one computer at any one time.  Users will receive a copy of the latest release when they register, or it will be made available for downloading. Registered users receive free technical support.
+ 
+All users must register and pay for their copies within 30 days of first use or their license is withdrawn.  Contact RAJE software to make Site License and multiple user license arrangements.
+ 
+Anyone distributing Fit to List for any kind of remuneration must first contact RAJE Software at the address below for authorization. This authorization will be automatically granted to distributors recognized by the (ASP) as adhering to its guidelines for shareware distributors, and such distributors may begin offering Fit to List immediately (However RAJE Software must still be advised so that the distributor can be kept up-to-date with the latest version of Fit to List.).
+You are encouraged to pass a copy of Fit to List along to your friends for evaluation. Please encourage them to register their copy if they find that they can use it. 
+RAJE Software
+http://www.rajeware.com
+support@rajeware.com</EULA>
+</Permissions>
+<ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>Y</ASP_Member>
+    <ASP_Member_Number>05333</ASP_Member_Number>
+</ASP>
+</XML_DIZ_INFO>
